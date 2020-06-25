@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
+import Bio from "components/Bio";
+import SEO from "components/Seo";
 
 export default function Layout({ children }) {
   const { pathname } = useRouter();
@@ -24,9 +26,9 @@ export default function Layout({ children }) {
   );
 
   return (
-    <div className="max-w-screen-sm px-4 py-8 mx-auto">
+    <div className="max-w-screen-md px-4 py-8 mx-auto">
       <header>{header}</header>
-      <main>{children}</main>
+	  <main>{children}</main>
       <footer>
         © {new Date().getFullYear()}, {" "}
         <a href="https://nextjs.org/" target="_blank">Next.js</a> 로 만들어졌습니다. &#128293;
