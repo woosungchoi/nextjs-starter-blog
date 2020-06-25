@@ -1,7 +1,7 @@
 {
-  "name": "nextjs-blog-starter",
-  "version": "0.2.0",
-  "description": "A Next.js template for a blog website.",
+  "name": "woosung-nextjs-blog-starter",
+  "version": "0.1.0",
+  "description": "Woosung Next js starter blog",
   "private": true,
   "scripts": {
     "dev": "next dev",
