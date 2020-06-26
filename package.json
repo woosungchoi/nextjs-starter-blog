@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "postbuild": "node ./scripts/postbuild"
   },
   "dependencies": {
     "imagemin-mozjpeg": "^9.0.0",
@@ -25,7 +26,8 @@
     "typeface-merriweather": "^0.0.72",
     "typeface-open-sans": "^0.0.75",
     "typography": "^0.16.19",
-    "typography-theme-sutro": "^0.16.19"
+    "typography-theme-sutro": "^0.16.19",
+    "utterances-react": "^0.1.3"
   },
   "devDependencies": {
     "gray-matter": "^4.0.2",
