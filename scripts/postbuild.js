@@ -52,14 +52,14 @@ function buildRss(pageFiles, pagesDir) {
         };
       }
       // only add to RSS if the pathname is '/blog/*'
-      if (pathname.startsWith('blog')) {
+      if (pathname.startsWith('post')) {
         const htmlString = fs.readFileSync(file, 'utf8');
         const $ = cheerio.load(htmlString);
         // remove the placeholder image for lazy loading images
         $(`#Content img[aria-hidden='true']`).remove();
         data.items.push({
           url: $(`meta[property='og:url']`).attr('content'),
-          id: pathname.substring('blog/'.length),
+          id: pathname.substring('post/'.length),
           content_html: $('#Content').html(),
           title: $('article h1').text(),
           summary: $(`meta[name='description']`).attr('content'),
