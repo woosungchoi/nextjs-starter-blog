@@ -10,6 +10,7 @@
     "postbuild": "node ./scripts/postbuild"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
     "lazysizes": "^5.2.2",
@@ -26,8 +27,7 @@
     "typeface-merriweather": "^0.0.72",
     "typeface-open-sans": "^0.0.75",
     "typography": "^0.16.19",
-    "typography-theme-sutro": "^0.16.19",
-    "utterances-react": "^0.1.3"
+    "typography-theme-sutro": "^0.16.19"
   },
   "devDependencies": {
     "gray-matter": "^4.0.2",
