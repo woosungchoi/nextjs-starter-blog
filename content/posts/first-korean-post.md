@@ -1,5 +1,6 @@
 ---
 title: 첫번째 한글 포스트입니다.
+coverImage: '/first-korean-post/big-ben.jpg'
 description: 기념비적인 한글 포스팅입니다.
 date: 2020-06-25T13:56:00.000Z
 ---
