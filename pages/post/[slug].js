@@ -14,7 +14,8 @@ const CodeBlock = ({ language, value }) => {
 const MarkdownImage = ({ alt, src }) => (
   <Image
     alt={alt}
-    src={require(`../../content/assets/${src}`)}
+    src={require(`../../content/assets/${src}`)} type="image/jpeg"
+	src={require(`../../content/assets/${src}?webp`)} type="image/webp"
     previewSrc={require(`../../content/assets/${src}?lqip`)}
     className="w-full"
   />
