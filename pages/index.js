@@ -18,11 +18,9 @@ export default function Home({ posts }) {
                 <a className="text-3xl text-orange-600 no-underline">{title}</a>
               </Link>
             </h3>
-            <span className="text-xs font-sans">{date}</span>
+			<p className="font-sans mb-1">{description}</p>
+            <p className="text-xs font-sans mb-16">{date}</p>
           </header>
-          <section>
-            <p className="mb-10 font-sans">{description}</p>
-          </section>
         </article>
       ))}
     </Layout>
