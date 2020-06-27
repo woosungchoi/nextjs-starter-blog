@@ -19,7 +19,7 @@ module.exports = withPlugins([
 		pngquant: false,
 		webp: {
 		  preset: 'default',
-		  quality: 82,
+		  quality: 75,
     },		
 }],		
 ]);
