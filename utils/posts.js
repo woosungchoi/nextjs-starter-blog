@@ -4,7 +4,7 @@ import path from "path";
 
 // Get day in format: Month day, Year. e.g. April 19, 2020
 function getFormattedDate(date) {
-  const options = { year: "numeric", month: "long", day: "numeric" };
+  const options = { year: "numeric", month: "2-digit", day: "numeric", hour: "numeric", minute: "numeric"};
   const formattedDate = date.toLocaleDateString("en-US", options);
 
   return formattedDate;

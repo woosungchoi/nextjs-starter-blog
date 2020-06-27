@@ -11,27 +11,29 @@ export default function Layout({ children }) {
     <h1 className="mb-8">
       <Link href="/">
         <a className="text-6xl font-black text-black no-underline">
-          Blog.
+          블로그.
         </a>
       </Link>
     </h1>
   ) : (
-    <h1 className="mb-2">
+    <h1 className="mb-8">
       <Link href="/">
-        <a className="text-2xl font-black text-black no-underline">
-          Blog.
+        <a className="text-6xl font-black text-black no-underline">
+          블로그.
         </a>
       </Link>
     </h1>
   );
 
   return (
-    <div className="max-w-screen-md px-4 py-8 mx-auto">
+    <div className="max-w-screen-md px-4 py-8 mx-auto font-sans">
       <header>{header}</header>
 	  <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, {" "}
-        <a href="https://nextjs.org/" target="_blank">Next.js</a> 로 만들어졌습니다. &#128293;
+		<div className="py-10">
+			© {new Date().getFullYear()}, {" "}
+			이 블로그는 <a href="https://nextjs.org/" target="_blank" rel="noopener" rel="noreferrer">Next.js</a> 로 만들어졌습니다. &#128293;
+		</div>
       </footer>
     </div>
   );

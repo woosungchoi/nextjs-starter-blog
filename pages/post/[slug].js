@@ -29,8 +29,9 @@ export default function Post({ post, frontmatter }) {
 
       <article>
         <header>
-          <h1 className="my-0">{frontmatter.title}</h1>
-          <p className="text-xs">{frontmatter.date}</p>
+          <h1 className="my-0 pb-2 text-orange-600" >{frontmatter.title}</h1>
+          <p className="text-xs font-sans">{frontmatter.date}</p>
+		  <p className="-mt-6 pb-2 font-sans">{frontmatter.description}</p>		  
         </header>
         <ReactMarkdown
           escapeHtml={false}
