@@ -26,7 +26,8 @@
     "typeface-merriweather": "^0.0.72",
     "typeface-open-sans": "^0.0.75",
     "typography": "^0.16.19",
-    "typography-theme-sutro": "^0.16.19"
+    "typography-theme-sutro": "^0.16.19",
+    "webp-loader": "^0.6.0"
   },
   "devDependencies": {
     "gray-matter": "^4.0.2",
