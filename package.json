@@ -9,7 +9,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
     "lazysizes": "^5.2.2",
