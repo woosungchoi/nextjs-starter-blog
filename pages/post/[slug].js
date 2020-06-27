@@ -1,6 +1,7 @@
 import ReactMarkdown from "react-markdown/with-html";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { okaidia } from 'react-syntax-highlighter/dist/cjs/styles/prism';
+import CoverImage from 'components/coverimage'
 
 import Layout from "components/Layout";
 import Image from "components/Image";
@@ -27,12 +28,12 @@ export default function Post({ post, frontmatter }) {
         title={frontmatter.title}
         description={frontmatter.description || post.excerpt}
       />
-
       <article>
         <header>
           <h1 className="my-0 pb-2 text-orange-600" >{frontmatter.title}</h1>
           <p className="font-sans">{frontmatter.description}</p>
-		  <p className="text-xs -mt-6 pb-2 font-sans">{frontmatter.date}</p>		  
+		  <p className="text-xs -mt-6 font-sans">{frontmatter.date}</p>
+     	  <CoverImage title={frontmatter.title} src={frontmatter.coverImage} />
         </header>
         <ReactMarkdown
           escapeHtml={false}
