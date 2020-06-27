@@ -1,6 +1,6 @@
 import ReactMarkdown from "react-markdown/with-html";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { okaidia } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import { okaidia } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 
 import Layout from "components/Layout";
 import Image from "components/Image";
