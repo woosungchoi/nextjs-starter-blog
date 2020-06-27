@@ -12,9 +12,9 @@ export default function Bio() {
         previewSrc={require("../content/assets/profile.png?lqip")}
         alt="Profile"
       />
-      <p className="mb-0 text-sm">
+      <p className="mb-0 text-sm font-sans">
         {author.summary}<br/>{" "}
-        <a href={`https://www.wsgvet.com`} target="_blank">
+        <a href={`https://www.wsgvet.com`} target="_blank"  rel="noopener" rel="noreferrer">
           우성짱의 홈페이지
         </a>
       </p>
