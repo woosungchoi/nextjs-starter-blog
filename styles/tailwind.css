@@ -28,7 +28,7 @@
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #666;
+  color: var(--secondary-color);
   cursor: pointer;
   cursor: hand;
   outline: 0;
@@ -36,7 +36,7 @@
 }
 
 .copy-to-clipboard button:hover {
-  color: #000;
+  color: var(--heading-color);
 }
 
 /* Style for theme switch button */
