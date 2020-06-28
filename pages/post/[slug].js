@@ -37,7 +37,15 @@ export default function Post({ post, frontmatter }) {
         <ReactMarkdown
           escapeHtml={false}
           source={post.content}
-          renderers={{ code: CodeBlock, image: MarkdownImage }}
+          renderers={{ code: CodeBlock, 
+					   image: MarkdownImage, 
+					   link: props => {
+							if (!props.href.startsWith('http')) {
+						        return props.href;
+						    }
+							return <a href={props.href} rel="nofollow noreferrer noopener" target="_blank">{props.children}</a>;
+					   }
+		  }}
         />
       </article>
     </Layout>
