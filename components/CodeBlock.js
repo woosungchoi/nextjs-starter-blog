@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react'
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { okaidia } from 'react-syntax-highlighter/dist/cjs/styles/prism';
+import SyntaxHighlighter from 'react-syntax-highlighter'
+import { agate } from 'react-syntax-highlighter/dist/cjs/styles/hljs'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 import { Copy, Check } from 'react-feather'
 
@@ -104,7 +104,7 @@ class CodeBlock extends PureComponent {
       >
         <SyntaxHighlighter
           language={language}
-          style={okaidia}
+          style={agate}
           customStyle={preStyle}
           codeTagProps={codeProps}
           wrapLines
@@ -116,7 +116,7 @@ class CodeBlock extends PureComponent {
               style = {
                 ...style,
                 margin: '0 -26px',
-                padding: '2px 20px 3px'
+                padding: '0px 20px'
               }
             }
 
