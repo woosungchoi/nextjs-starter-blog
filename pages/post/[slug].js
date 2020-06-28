@@ -1,15 +1,9 @@
 import ReactMarkdown from "react-markdown/with-html";
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { okaidia } from 'react-syntax-highlighter/dist/cjs/styles/prism';
-
+import CodeBlock from "components/CodeBlock"
 import Layout from "components/Layout";
 import Image from "components/Image";
 import SEO from "components/Seo";
 import { getPostBySlug, getPostsSlugs } from "utils/posts";
-
-const CodeBlock = ({ language, value }) => {
-  return <SyntaxHighlighter language={language} style={okaidia}>{value}</SyntaxHighlighter>;
-};
 
 const MarkdownImage = ({ alt, src }) => (
   <Image
