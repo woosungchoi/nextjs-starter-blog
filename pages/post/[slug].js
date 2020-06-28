@@ -1,5 +1,5 @@
 import ReactMarkdown from "react-markdown/with-html";
-import CodeBlock from "components/CodeBlock"
+import CodeBlock from "components/CodeBlock";
 import Layout from "components/Layout";
 import Image from "components/Image";
 import SEO from "components/Seo";
