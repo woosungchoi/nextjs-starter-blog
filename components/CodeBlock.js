@@ -7,13 +7,13 @@ import { Copy, Check } from 'react-feather'
 const preStyle = {
   borderRadius: 6,
   padding: '1.7em',
-  lineHeight: '2.3em',
+  lineHeight: '1.6em',
 }
 
 const codeProps = {
   style: {
     fontFamily: `ibm-plex-mono, Consolas, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New'`,
-    fontSize: '18.5px'
+    fontSize: '17px'
   }
 }
 
@@ -115,8 +115,8 @@ class CodeBlock extends PureComponent {
             if (mergedLines.includes(lineNumber)) {
               style = {
                 ...style,
-                margin: '0 -22px',
-                padding: '3px 12px 6px'
+                margin: '0 -26px',
+                padding: '2px 20px 3px'
               }
             }
 

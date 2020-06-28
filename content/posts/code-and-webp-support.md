@@ -17,7 +17,7 @@ okaidia 테마로 변경해주니 완전 깔끔하게 변경되었습니다.
 
 여기에서 작업 현황을 볼 수 있습니다.
 
-```jsx
+```jsx:1-2,-5-6,!-8-9
 const withPlugins = require("next-compose-plugins");
 const optimizedImages = require("next-optimized-images");
 
