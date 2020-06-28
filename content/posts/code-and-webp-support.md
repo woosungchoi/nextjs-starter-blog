@@ -9,9 +9,11 @@ date: 2020-06-27T21:42:00.000Z
 
 알고보니 그게 문제가 아니고 원래 테마가 그런거더라구요 -_-;;;
 
-okadai 테마로 변경해주니 완전 깔끔하게 변경되었습니다.
+okaidia 테마로 변경해주니 완전 깔끔하게 변경되었습니다.
 
 <a href="https://github.com/woosungchoi/nextjs-starter-blog/commit/e16e68e39b25b9470b18265fb8c0ad010fad1f60" target="_blank" rel="noopener noreferrer">첫번째 커밋</a>
+
+https://github.com/woosungchoi/nextjs-starter-blog/commit/e16e68e39b25b9470b18265fb8c0ad010fad1f60 (target=_blank) 없는 링크
 
 <a href="https://github.com/woosungchoi/nextjs-starter-blog/commit/2d34802b37ea5747299c295f6e6d2707fbbcf407" target="_blank" rel="noopener noreferrer">두번째 커밋</a>
 
