@@ -149,7 +149,7 @@ class CodeBlock extends PureComponent {
         <div className="copy-to-clipboard">
           <CopyToClipboard text={value} onCopy={() => this.copyToClipboard()}>
             <button>
-              {copiedToClipboard ? 'Copied ✔' : 'Copy'}
+              {copiedToClipboard ? '코드가 복사되었습니다! ✔' : '코드 복사하기'}
             </button>
           </CopyToClipboard>
         </div>
