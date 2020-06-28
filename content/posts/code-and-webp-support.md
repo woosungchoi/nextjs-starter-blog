@@ -11,11 +11,9 @@ date: 2020-06-27T21:42:00.000Z
 
 okaidia 테마로 변경해주니 완전 깔끔하게 변경되었습니다.
 
-<a href="https://github.com/woosungchoi/nextjs-starter-blog/commit/e16e68e39b25b9470b18265fb8c0ad010fad1f60" target="_blank" rel="noopener noreferrer">첫번째 커밋</a>
+[첫번째 커밋](https://github.com/woosungchoi/nextjs-starter-blog/commit/e16e68e39b25b9470b18265fb8c0ad010fad1f60)
 
-https://github.com/woosungchoi/nextjs-starter-blog/commit/e16e68e39b25b9470b18265fb8c0ad010fad1f60 (target=_blank) 없는 링크
-
-<a href="https://github.com/woosungchoi/nextjs-starter-blog/commit/2d34802b37ea5747299c295f6e6d2707fbbcf407" target="_blank" rel="noopener noreferrer">두번째 커밋</a>
+[두번째 커밋](https://github.com/woosungchoi/nextjs-starter-blog/commit/2d34802b37ea5747299c295f6e6d2707fbbcf407)
 
 여기에서 작업 현황을 볼 수 있습니다.
 
@@ -142,7 +140,7 @@ css 언어로 지정했을 때 표현 방식입니다.
 
 ### 이미지 최적화 Webp 적용하기
 
-<a href="https://github.com/cyrilwanner/next-optimized-images" target="_blank" rel="noopener noreferrer">next-optimized-images 패키지 깃허브</a>
+[next-optimized-images 패키지 깃허브](https://github.com/cyrilwanner/next-optimized-images)
 
 위 링크에 있듯이 이미 패키지가 있습니다. 그래도 적용하는데는 한세월이 걸렸는데요. ㅎㅎ
 
@@ -150,7 +148,7 @@ css 언어로 지정했을 때 표현 방식입니다.
 
 IE11에도 적용되게 해보려고 했는데.. 득보다 실이 많은 것 같아 IE11은 과감하게 버리기로 했습니다. ^^;;
 
-<a href="https://github.com/woosungchoi/nextjs-starter-blog/commit/0857af869dd047225b0158e9bd7a427bc8a1db76" target="_blank" rel="noopener noreferrer">커밋 모음</a>
+[커밋 모음](https://github.com/woosungchoi/nextjs-starter-blog/commit/0857af869dd047225b0158e9bd7a427bc8a1db76)
 
 위 링크에서 작업현황을 한눈에 볼 수 있습니다.
 
@@ -166,6 +164,6 @@ IE11에도 적용되게 해보려고 했는데.. 득보다 실이 많은 것 같
 
 현재 이 블로그의 테마는 
 
-<a href="https://github.com/JoseRFelix/nextjs-starter-blog" target="_blank" rel="noopener noreferrer">https://github.com/JoseRFelix/nextjs-starter-blog</a>
+https://github.com/JoseRFelix/nextjs-starter-blog
 
 위 링크에서 확인할 수 있습니다!
