@@ -100,6 +100,5 @@ hr {
 }
 
 .text-6xl {
-  background-color: var(--bg-color);
   color: var(--font-color);
 }
