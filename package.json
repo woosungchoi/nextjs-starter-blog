@@ -24,8 +24,6 @@
     "react-markdown": "^4.3.1",
     "react-syntax-highlighter": "^12.2.1",
     "react-typography": "^0.16.19",
-    "typeface-merriweather": "^0.0.72",
-    "typeface-open-sans": "^0.0.75",
     "typography": "^0.16.19",
     "typography-theme-sutro": "^0.16.19",
     "webp-loader": "^0.6.0"
