@@ -24,7 +24,7 @@ export default function Post({ post, frontmatter }) {
       />
       <article>
         <header>
-          <h1 className="my-0 pb-2 text-orange-600" >{frontmatter.title}</h1>
+          <h1 className="my-0 pb-2 text-orange-600 font-sans" >{frontmatter.title}</h1>
           <p className="font-sans">{frontmatter.description}</p>
 		  <p className="text-xs -mt-6 pb-2 font-sans">{frontmatter.date}</p>
         </header>
