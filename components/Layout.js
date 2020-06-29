@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 import { useRouter } from "next/router";
 import Bio from "components/Bio";
 import SEO from "components/Seo";
-import { Sun, Moon } from 'react-feather'
+import { Sunrise, Sunset } from 'react-feather'
 
 export default function Layout({ children, secondaryPage, noHead = false }) {
   const { pathname } = useRouter();
@@ -39,13 +39,13 @@ export default function Layout({ children, secondaryPage, noHead = false }) {
   const header = (
     <h1 className="mb-8">
       <Link href="/">
-        <a className="text-6xl no-underline">
+        <a className="text-6xl no-underline font-sans">
           블로그.
         </a>
       </Link>
 	  <div className="float-right">
 		<button className="theme-switch-button" onClick={() => switchTheme()}>
-            {theme === 'dark' ? <Sun /> : <Moon />}
+            {theme === 'dark' ? <Sunrise /> : <Sunset />}
         </button>
 	  </div>
     </h1>
