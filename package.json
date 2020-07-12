@@ -9,6 +9,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "disqus-react": "^1.0.9",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
     "lazysizes": "^5.2.2",
