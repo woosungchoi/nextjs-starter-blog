@@ -4,6 +4,7 @@ import Layout from "components/Layout";
 import Image from "components/Image";
 import SEO from "components/Seo";
 import { getPostBySlug, getPostsSlugs } from "utils/posts";
+import { DiscussionEmbed } from 'disqus-react'
 
 const MarkdownImage = ({ alt, src }) => (
   <Image
@@ -16,6 +17,11 @@ const MarkdownImage = ({ alt, src }) => (
 );
 
 export default function Post({ post, frontmatter }) {
+  const disqusShortname = "nextjs-r-pelix";
+  const disqusConfig = {
+    config: { 
+      identifier: post.slug, title: frontmatter.title },
+  };
   return (
     <Layout>
       <SEO
@@ -42,6 +48,7 @@ export default function Post({ post, frontmatter }) {
 		  }}
         />
       </article>
+      <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
     </Layout>
   );
 }
