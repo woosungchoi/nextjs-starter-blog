@@ -9,29 +9,29 @@
     "start": "next start"
   },
   "dependencies": {
-    "disqus-react": "^1.0.9",
-    "imagemin-mozjpeg": "^9.0.0",
-    "imagemin-optipng": "^8.0.0",
-    "lazysizes": "^5.2.2",
-    "lqip-loader": "^2.2.0",
+    "disqus-react": "1.0.9",
+    "imagemin-mozjpeg": "9.0.0",
+    "imagemin-optipng": "8.0.0",
+    "lazysizes": "5.2.2",
+    "lqip-loader": "2.2.0",
     "next": "9.4.4",
-    "next-compose-plugins": "^2.2.0",
-    "next-optimized-images": "^2.6.1",
-    "postcss-preset-env": "^6.7.0",
+    "next-compose-plugins": "2.2.0",
+    "next-optimized-images": "2.6.1",
+    "postcss-preset-env": "6.7.0",
     "react": "16.13.1",
-    "react-copy-to-clipboard": "^5.0.2",
+    "react-copy-to-clipboard": "5.0.2",
     "react-dom": "16.13.1",
-    "react-feather": "^2.0.8",
-    "react-markdown": "^4.3.1",
-    "react-syntax-highlighter": "^12.2.1",
-    "react-typography": "^0.16.19",
-    "typography": "^0.16.19",
-    "typography-theme-sutro": "^0.16.19",
-    "webp-loader": "^0.6.0"
+    "react-feather": "2.0.8",
+    "react-markdown": "4.3.1",
+    "react-syntax-highlighter": "12.2.1",
+    "react-typography": "0.16.19",
+    "typography": "0.16.19",
+    "typography-theme-sutro": "0.16.19",
+    "webp-loader": "0.6.0"
   },
   "devDependencies": {
-    "gray-matter": "^4.0.2",
-    "tailwindcss": "^1.4.6"
+    "gray-matter": "4.0.2",
+    "tailwindcss": "1.4.6"
   },
   "license": "MIT",
   "repository": {
