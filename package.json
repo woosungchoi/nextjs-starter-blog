@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "gray-matter": "4.0.2",
-    "tailwindcss": "1.4.6"
+    "tailwindcss": "1.5.2"
   },
   "license": "MIT",
   "repository": {
